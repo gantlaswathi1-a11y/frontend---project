@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REG FORM</title>
+</head>
+<body>
+    <marquee  direction="left">
+        <center><h1>Course Registration Form</h1></center></marquee>
+    <form actions="">
+<fieldset>
+     <legend>Personal Details</legend>
+    <table> 
+    <tr>
+        <td><label for="firstname">First Name</label></td>
+        <td><input type="text" name="firstname" id="fn" 
+            placeholder="Eg: Swathi"
+            required
+            />
+        </td>
+    </tr>
+    <tr>
+        <td> <label for="surname">Sur Name</label></td>
+        <td><input type="text" name="secondname" id="sn" placeholder="Eg:G" required></td>
+    </tr>
+    <tr>
+        <td><label for="mobilenumber">Mobile Number</label></td>
+        <td> <input type="tel"  required></td>
+    </tr>
+    <tr>
+        <td> <label for="email">Email</label></td>
+        <td> <input type="email" required></td>
+    </tr>
+    <tr>
+        <td> <label for="password">Password</label></td>
+        <td><input type="password" required></td>
+    </tr>
+    <tr>
+        <td> <label for="password">Confirm Password</label></td>
+        <td><input type="password" required></td>
+    </tr>
+    <tr>
+        <td><label for="date">DOB</label></td>
+        <td><input type="date" required></td>
+    </tr>
+    <tr>
+        <td> <label for="gender">Gender</label> </td>
+        <td><input required type="radio" name="gender" value="Male"><label for="">MALE</label>
+        <input required type="radio" name="gender" value="Female"><label for="">FEMALE</label>
+        <input type="radio" name="gender" value="Others"><label for="">OTHERS</label></td>
+    </tr>
+    <tr>
+        <td><label for="">Select Country</label></td>
+        <td><select name="" id="">
+             <option value="INDIA">INDIA</option>
+             <option value="RUSSIA">RUSSIA</option>
+             <option value="AUS">AUS</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td> <label for="">Upload Picture</label></td>
+        <td><input type="file"></td>
+    </tr>
+    
+</table>
+        <input type="reset"> <br>
+</fieldset>
+
+<fieldset>
+    <legend>Course Details</legend>
+    <table>
+    <tr>
+        <td><label for="">Select Course</label></td>
+        <td><select name="" id="">
+    <option value="Python Full Stack">Python Full Stack</option>
+    <option value="Java Full Stack">Java Full Stack</option>
+    <option value="Mern Full Stack">Mern Full Stack</option>
+</select></td>
+    </tr>
+    <tr>
+        <td><label for="delivery mode">Delivery Mode</label></td>
+        <td><input type="radio"  name="Delivery mode" value="online"><label for="">ONLINE</label>
+    <input type="radio" name="Delivery mode" value="Offline"><label for="">OFFLINE</label></td>
+    </tr>
+</table>
+<label for="">Comments</label><br>
+    <input type="text" row="5" coloumns="5">
+        <input type="submit">
+    </form>
+</fieldset>
+</body>
+</html>
